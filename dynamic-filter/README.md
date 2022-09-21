@@ -1,4 +1,5 @@
 # Dynamic Filter
+Chuyển đổi phương thức lấy dữ liệu từ dạng GET sang dạng POST.
 
 ## Interface
 ```
@@ -22,6 +23,7 @@ export interface IDynamicFilter {
   }[];
 }
 ```
+> Interface này mô tả mẫu data cho body khi call api bằng phương thức POST
 Mỗi block `{ filters: {...}; logic: {...} }` này tương ứng với một trường cần filter.
 Trong đó:
 - `filters`: mảng chứa các giá trị filter.
