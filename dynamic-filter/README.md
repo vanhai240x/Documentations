@@ -149,3 +149,46 @@ Trong đó:
   ]
 }
 ```
+
+#### Làm việc với Searchbox và Selectbox: Tìm kiếm các dự án có chứa ký tự 'aria' và theo hạng mục (CategoryId) có id "13abd188".
+```
+{
+  "pagination": {
+    "pageSize": "10",
+    "pageNumber": 1,
+    "isPaging": true
+  },
+  "groupFilters": [
+    {
+      "filters": [
+        {
+          "operator": "contains",
+          "field": "Project.Name",
+          "value": "aria"
+        },
+      ],
+      "logic": {
+        "value": "or"
+      }
+    },
+    {
+      "filters": [
+        {
+          "operator": "eq",
+          "field": "CategoryId",
+          "value": "13abd188"
+        },
+      ],
+      "logic": {
+        "value": "or"
+      }
+    }
+  ],
+  "sort": [
+    {
+      "predicate": "LastModified",
+      "reverse": true
+    }
+  ]
+}
+```
