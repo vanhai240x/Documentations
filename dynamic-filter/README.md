@@ -42,7 +42,7 @@ Trong đó:
 
 
 ## Ví dụ
-> Làm việc với Searchbox: Tìm kiếm các dự án có chứa ký tự 'aria' theo tên hoặc mã dự án, sắp xếp theo ngày chỉnh sửa (LastModified).
+#### Làm việc với Searchbox: Tìm kiếm các dự án có chứa ký tự 'aria' theo tên hoặc mã dự án, sắp xếp theo ngày chỉnh sửa (LastModified).
 ```
 {
   "pagination": {
@@ -78,7 +78,7 @@ Trong đó:
 }
 ```
 
-> Làm việc với Datetimepicker: Tìm kiếm các dự án được cập nhật từ ngày 01/09/2022 - 30/09/2022
+#### Làm việc với Datetimepicker: Tìm kiếm các dự án được cập nhật từ ngày 01/09/2022 - 30/09/2022
 ```
 {
   "pagination": {
@@ -114,7 +114,7 @@ Trong đó:
 }
 ```
 
-> Làm việc với Checkbox/Selectbox: Tìm kiếm các dự án theo mã dự án
+#### Làm việc với Checkbox/Selectbox: Tìm kiếm các dự án theo mã dự án
 {
   "pagination": {
     "pageSize": 10,
@@ -147,3 +147,4 @@ Trong đó:
     }
   ]
 }
+```
